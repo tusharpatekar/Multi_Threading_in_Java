@@ -15,5 +15,7 @@ public class PriorityOfThreadExample extends Thread{
         t.setPriority(10);
         t.start();
 
+        System.out.print("Available priority are :" + " 1.MIN_PRIORITY -> " + MIN_PRIORITY + " " + "2.NORM_PRIORITY ->" + NORM_PRIORITY + " " + "3.MAX_PRIORITY->" + MAX_PRIORITY);
+
     }
 }
